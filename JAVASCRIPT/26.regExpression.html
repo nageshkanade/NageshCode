@@ -1,0 +1,70 @@
+<script>
+    // THis Method is use for string 
+    //  1.Search
+    //  2.Replace
+
+    // syntax :- /pattern/modifier
+    // Modifier : i
+    // Modifier : g glogl
+
+    // let d="Have a Nice DaY...!";
+    // console.log(d.search('Nice'));  
+    
+    // let d="Have a Nice DaY...!";
+    // console.log(d.search(/NIce/i)); // i is use for case sensitive disable
+
+/*************************** search ()***************************************/
+    //let d="Have a Nice DaY,Have a Good Day";
+   // console.log(d.search(/HAVE/ig)); // i is use for case sensitive disable // this is not run
+
+    let d="Have a Nice DaY,Have a Good Day";
+    //console.log(d.search(/HAVE/i)); // i is use for case sensitive disable
+
+/*************************** Replace ()***************************************/
+// var d1='Have a Good DaY';
+// console.log(d1.replace(/GooD/i,'Nice'))
+
+var d1='Have a Good DaY,Good work';
+//console.log(d1.replace(/GooD/ig,'Nice'));
+
+var d2='have a goo day,have a good work,have a good boy';
+//console.log(d2.replace(/day|work|boy/ig,'days','works','boys'));// this is not run
+//console.log(d2.replace(/day/ig,'days').replace(/work/ig,'works').replace(/boy/ig,'boys')); //this is 
+
+let replacevalue={'day':'days','work':'works','boy':'boys'}
+//console.log(d2.replace(/day|work|boy/ig,function(m){
+   //return replacevalue[m];
+//}))
+/*********************** [a-z] ******************/
+var d3='Have a great DaY';
+//console.log(d3.match(/[a-z]/ig,)) // this method find the lower case in string 
+
+/*********************** [0-9] ******************/
+var d4='04191489518585 hay you, how are you'; // ^ => this symbol called not
+//console.log(d4.match(/[^0-9]/ig,))
+
+/*********************** [\s] ******************/
+var d5='Have a Good DaY....!';
+//console.log(d5.match(/[\s]/ig,))  // this method to find the space
+
+/*********************** [\S] ******************/
+var d6='Have a Good DaY....!';
+//console.log(d6.match(/[\S]/ig,))  // this method to remove the space
+
+/*********************** [\w] ******************/
+var d7='Hi,205682 salary creadited in you acoaunt...Thank you...!!';
+//console.log(d7.match(/[\w]/ig,))  // this method to return the charcter and number only
+
+/*********************** [\W] ******************/
+var d8='Hi,205682 salary creadited ///this method only take a space and symbol
+ /// !!! in you acoaunt...Thank you...!!';
+//console.log(d8.match(/[\W]/ig,))  // 
+/*********************** [\d] ******************/
+var d9='Hi,205682 salary creadited in you acoaunt...Thank you...!!';
+console.log(d9.match(/[\d]/ig,))  // this method to take a only number
+
+/*********************** [\D] ******************/
+var d9='Hi,205682 salary creadited in you acoaunt...Thank you...!!';
+console.log(d9.match(/[\D]/ig,))  // this method to take a only charcter space and symbol
+
+</script>

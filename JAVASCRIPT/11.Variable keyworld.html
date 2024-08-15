@@ -1,0 +1,67 @@
+
+<script>
+
+var x='javaScript'; // Old JS
+
+// let,const 
+
+// let x='javaScript'; // Advance Js
+
+// const x='javaScript';// Advance Js
+
+// var z=15; // global scope
+// function abc() //Global scope
+// {
+//     console.log('function calling') // block scope / local scope
+//      var z=10;
+//     console.log(z)
+// }
+// abc() //Global scope
+
+//Let........=>
+
+// let z=15; // global scope
+// function abc() //Global scope
+// {
+//     console.log('function calling') // block scope / local scope
+//      let z=10;
+//     console.log(z)
+// }
+// abc() //Global scope
+
+//const..........=>
+
+// const z=15; // global scope
+// function abc() //Global scope
+// {
+//     console.log('function calling') // block scope / local scope
+//      const z=10;
+//     console.log(z)
+// }
+// abc() //Global scope
+
+
+        function pqr()//................................... over ride
+        {
+            var x=30;
+            var x=50;
+            {
+                let x=91;
+                console.log(x) //.......91
+            }
+            {
+                let x=100;
+                console.log(x) //........100
+            }
+            console.log(x) //50 ..............over ride
+        }
+        pqr()
+
+
+
+</script>
+
+
+
+
+

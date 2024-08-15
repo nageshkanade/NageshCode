@@ -1,0 +1,23 @@
+<script>
+    /******************** local storge ********************/
+    // localStorage.setItem('Name','Nagesh');
+    // let raj = localStorage.getItem('Name');
+    // document.write(raj);
+    /*****************************************************************/
+
+    // let Dharm = `{'studId':91,'Name':'Rajesh','Mob':770948130}`;
+
+    // localStorage.setItem('om', Dharm);
+    // let Nagu = localStorage.getItem('om');
+    // document.write(Nagu);
+    // console.log(Nagu)
+    
+    /***************************************************************************/
+    let Dharm = {'studId':91,'Name':'Rajesh','Mob':770948130};
+
+    localStorage.setItem('om',JSON.stringify(Dharm))
+    let raj = localStorage.getItem('om')
+    let obj = JSON.parse(raj)
+    console.log(obj);
+    document.write(obj.Name)
+</script>

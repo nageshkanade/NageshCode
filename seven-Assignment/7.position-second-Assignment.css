@@ -1,0 +1,569 @@
+/* ********* First Row ********** */
+.first-row{
+    height: 300px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.first-row-1{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: aqua;
+    position: relative;
+}
+.first-row-11{
+    height: 150px;
+    width: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.first-row-12{
+    height: 150px;
+    width: 50%;
+    background-color: rgb(150, 150, 18);
+    position: absolute;
+    right: 0px;
+    
+}
+.first-row-13{
+    height: 150px;
+    width: 50%;
+    background-color: rgb(10, 94, 49);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.first-row-14{
+    height: 150px;
+    width: 50%;
+    background-color: rgba(0, 51, 255, 0.702);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.first-row-15{
+    height: 150px;
+    width: 50%;
+    background-color: wheat;
+    position: absolute;
+    top: 75px;
+    left: 90px;
+}
+/*  */
+.first-row-2{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: rgb(79, 73, 14);
+    position: relative;
+}
+.first-row-21{
+    height: 230px;
+    width: 80%;
+    background-color: yellow;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.first-row-211{
+    height: 200px;
+    width: 70%;
+    background-color: green;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+.first-row-211{
+    height: 180px;
+    width: 70%;
+    background-color: green;
+    position: absolute;
+    top: 25px;
+    left: 43px;
+}
+.first-row-21111{
+    height: 100px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+/*  */
+
+.first-row-3{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: rgba(0, 255, 255, 0.547);
+    position: relative;
+}
+.first-row-31{
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    position: absolute;
+    top: 0px;
+}
+/*  */
+.first-row-4{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: rgb(0, 255, 4);
+}
+.first-row-41{
+    height: 300px;
+    width: 33%;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+.first-row-411{
+    height: 70px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 8px;
+    left: 13px;
+}
+.first-row-412{
+    height: 70px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 110px;
+    left: 13px;
+}
+.first-row-413{
+    height: 70px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    bottom:20px;
+    left: 13px;
+}
+.first-row-42{
+    height: 300px;
+    width: 33%;
+    background-color: yellow;
+    float: left;
+    position: relative;
+}
+.first-row-43{
+    height: 300px;
+    width: 33%;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+
+/* ************ second Row ****** */
+.second-row{
+    height: 300px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.second-row-1{
+    height: 300px;
+    width: 25%;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+.second-Box-11{
+    height:75px;
+    width: 100%;
+    background-color: skyblue;
+    position: absolute;
+    top: 0px;
+}
+.second-Box-12{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 75px;
+}
+.second-Box-13{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(246, 230, 245);
+    position: absolute;
+    top: 75px;
+}
+.second-Box-14{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(224, 23, 23);
+    position: absolute;
+    bottom:0px;
+}
+/*  */
+.second-row-2{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(94, 9, 9);
+    float: left;
+    position: relative;
+}
+.second-row-21{
+    height: 100px;
+    width: 30%;
+    background-color: wheat;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.second-row-22{
+    height: 100px;
+    width: 30%;
+    background-color: wheat;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.second-row-23{
+    height: 100px;
+    width: 30%;
+    background-color: wheat;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+.second-row-24{
+    height: 100px;
+    width: 30%;
+    background-color: wheat;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+/*  */
+.second-row-3{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(43, 0, 255);
+    float: left;
+    position: relative;
+}
+.second-Box-31{
+    height: 250px;
+    width: 25%;
+    background-color: brown;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.second-Box-32{
+    height: 250px;
+    width: 25%;
+    background-color: brown;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+}
+.second-Box-33{
+    height: 250px;
+    width: 25%;
+    background-color: brown;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+/*  */
+.second-row-4{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(255, 0, 208);
+    float: left;
+    position: relative;
+}
+.second-Box-41{
+    height: 50px;
+    width: 80%;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+.second-Box-42{
+    height: 50px;
+    width: 80%;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 35px;
+    top: 120px;
+}
+.second-Box-43{
+    height: 50px;
+    width: 80%;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+}
+/* **************** third row ********** */
+.third-row{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+.third-row-1{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(31, 31, 144);
+    float: left;
+    position: relative;
+}
+.third-row-11{
+    height: 250px;
+    width: 80%;
+    background-color: rgb(17, 85, 85);
+    position: absolute;
+    top: 25px;
+    left: 34px;
+}
+.third-row-12{
+    height: 200px;
+    width: 80%;
+    background-color: rgb(17, 85, 27);
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+.third-row-121{
+    height: 150px;
+    width: 80%;
+    background-color: rgb(27, 17, 85);
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+.third-row-2{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(31, 144, 118);
+    float: left;
+    position: relative;
+}
+.third-21{
+    height: 250px;
+    width: 80%;
+    background-color: rgb(113, 113, 27);
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+.third-row-3{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(74, 144, 31);
+    float: left;
+}
+.third-row-31{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: blue;
+    position: relative;
+}
+.third-row-311{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+
+}
+.third-row-312{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+
+}
+.third-row-313{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+
+}
+.third-row-314{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+
+}
+.third-row-32{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: rgb(0, 255, 140);
+    position: relative;
+}
+.third-row-321{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+
+}
+.third-row-322{
+    height: 75px;
+    width: 100%;
+    background-color:red;
+    position: absolute;
+    top: 75px;
+
+}
+.third-row-323{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+
+}
+.third-row-324{
+    height: 75px;
+    width: 100%;
+    background-color:red;
+    position: absolute;
+    bottom: 0px;
+
+}
+.third-row-33{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: rgb(255, 85, 0);
+    position: relative;
+}
+.third-row-331{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+
+}
+.third-row-332{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+
+}
+.third-row-333{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+
+}
+.third-roe-334{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+
+}
+.third-row-34{
+    height: 300px;
+    width: 25%;
+    float: left;
+    background-color: rgb(0, 255, 119);
+    position: relative;
+}
+.third-row-341{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+
+}
+.third-row-342{
+    height: 75px;
+    width: 100%;
+    background-color:red;
+    position: absolute;
+    top: 75px;
+
+}
+.third-row-343{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+
+}
+.third-row-344{
+    height: 75px;
+    width: 100%;
+    background-color:red;
+    position: absolute;
+    bottom: 0px;
+
+}
+.third-row-4{
+    height: 300px;
+    width: 25%;
+    background-color: rgb(144, 31, 103);
+    float: left;
+    position: relative;
+}
+.third-row-41{
+    height: 80px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+.third-row-42{
+    height: 100px;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 35px;
+}
+.third-row-43{
+    height: 100px;
+    width: 90%;
+    background-color:white;
+    position: absolute;
+    top: 90px;
+    left: 15px;
+}
+.third-row-44{
+    height: 120px;
+    width: 95%;
+    background-color: black;
+    position: absolute;
+    top: 140px;
+    left: 6px;
+    position: relative;
+}
+.third-row-441{
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+}

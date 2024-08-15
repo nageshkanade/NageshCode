@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+       <title>Selectors</title>
+       <style>
+       /* div, p,h1,h4,span{
+            color: red;
+            text-align: center;
+        }
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h4{
+            color: red;
+            text-align: center;
+        } */
+        *{
+            color: red;
+            text-align: center;
+        }
+        .box{
+            background-color: green;
+            height: 100px;
+            width: 100px;
+        }
+        .box:hover{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        p::after{
+            /* content: url( abc); */
+            content:'developer guru';
+        }
+        h3::before{
+            content: ' welcome to';
+        }
+        
+       </style>
+    
+</head>
+<body>
+    <!-- css type
+     1.id
+    2.class name
+     3.tage name  -->
+     <!-- ----------- Selectors-:property -simple-------- -->
+     <p>Have a Nice Day</p>
+     <p>Have a Nice Day</p>
+     <span>Good Day</span>
+     <h1>Have a great Day</h1>
+     <h4>Have a great Day</h4>
+     <!-- ------------ selectors-div  -->
+     <div>
+     <p>Have a Nice Day</p>
+     <p>Have a Nice Day</p>
+     <span>Good Day</span>
+     <h1>Have a great Day</h1>
+     <h4>Have a great Day</h4>
+     </div>
+     <!-- -------------- selectors-*star------- -->
+     <div>
+        <p>Have a Nice Day</p>
+        <p>Have a Nice Day</p>
+        <span>Good Day</span>
+        <h1>Have a great Day</h1>
+        <h4>Have a great Day</h4>
+        </div>
+        <!-- ----------- selectors : pseudo clases selectors-------->
+        <div class="box"></div>   
+        <!-- ------------- pseudo Elements selectors  after- before ----------- -->
+        <p>welcome to </p>
+        <h3> developer guru</h3>
+
+</body>
+</html>

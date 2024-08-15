@@ -1,0 +1,262 @@
+.A{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+.B{
+    width: 100%;
+}
+/* .img{
+    margin-left:100px;
+} */
+.C{
+    width: 100%;
+    background-color: orangered;  
+    height: 60px;
+
+}
+.navbar{
+    list-style-type:none;  
+    width: 100%;   
+   text-align: center; 
+}
+.navbar li a{
+    text-decoration: none;
+    width: 6%;
+    color: yellow;
+    float: left;
+    padding: 10px;
+    font-size: 25px; 
+}
+.D{
+    /* background-color:black; */
+    height: 1100px;
+    width: 100%;
+}
+.D1{
+    height: 1100px;
+    width: 50%;
+    /* background-color: red; */
+    float: left;
+}
+.D11{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 550px;
+}
+.D12{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 280px;
+}
+.D121{
+    width: 33%;
+    height: 280px;
+    /* background-color: purple; */
+    float: left;
+}
+.para{
+    font-size: 20px;
+}
+.D13{
+    /* background-color: blue; */
+    width: 100%;
+    height: 280px;
+}
+.D131{
+    /* background-color: green; */
+    width: 50%;
+    float: left;
+    height: 150px;
+}
+
+.D131 img{
+    float:left;
+    margin-top: 16px;
+}
+.D131 .para{
+    /* float: left; */
+    margin-top:30px;
+    /* margin-left: 5px;1 */
+}
+.D131:hover , .D121:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+.D2{
+    background-color: #ededed;
+    height: 1100px;
+    width: 25%;
+    float: left;
+}
+.D21{
+    /* background-color: black; */
+    height: 137px;
+    width: 100%;
+}
+.D22{
+    /* background-color: blue; */
+    width: 100%;
+    height: 137px;
+}
+ .D221{
+    padding: 35px;
+    margin:0px;
+    font-size: 20px;
+    
+}
+.D3{
+    /* background-color: red; */
+    height: 1100px;
+    width: 25%;
+    float: left;
+}
+.D31{
+    /* background-color: green; */
+    height: 550px;
+    width: 100%;
+
+}
+.D31:hover{
+    color: orangered;
+}
+.D311{
+    margin:20px;
+    font-size: 30px;
+}
+.D32{
+    /* background-color: blue; */
+    width: 100%;
+    height: 550px;
+}
+.D32:hover{
+    color: orangered;
+}
+.D321{
+    margin:20px;
+    font-size: 30px;
+}
+.E{
+    background-color: #ededed;
+    height: 750px;
+    width: 100%;
+    margin-top: 8px;
+    
+}
+.E1{
+    /* background-color: red; */
+    width: 40%;
+    float: left;
+    height: 600px;
+}
+.heading{
+    background-color: orange;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    margin-left: 68px;
+    color: white;
+}
+.e1{
+    font-size: 22px;
+    margin-left: 70px;
+    
+}
+.e1:hover{
+    color: orangered;
+}
+.E2{
+    /* background-color: blue; */
+    height: 750px;
+    width: 60%;
+    float: left;
+}
+.heading1{
+    background-color: red;
+    height: 50px;
+    width: 90%;
+    text-align: center;
+    margin-left: 70px;
+    color: white;
+
+}
+.E21{
+    /* background-color: yellow; */
+    float: left;
+    width: 32%;
+    height: 650px;
+    margin: 5px;
+}
+.E211:hover{
+    color:orangered;
+}
+.E211{
+    /* background-color: brown; */
+    width: 100%;
+    height: 25%;
+}
+.E2111{
+    float: left;
+    width: 65%;
+    height: 127px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.F{
+    background-color:#ededed;
+    width: 100%;
+    height: 900px;
+    margin-top: 10px;
+    padding: 8px;
+
+}
+.F1{
+    /* background-color: yellow; */
+    width: 24%;
+    height: 900px;
+    float: left;
+    margin-left: 2px;
+
+}
+.F11{
+    /* background-color: brown; */
+    width: 98%;
+    height: 100px;
+    margin: 0 5px;
+}
+
+.Fheading{
+    margin:0px auto;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    padding-top: 10px;
+    color: white;
+    
+}
+.F12{
+    /* background-color: green; */
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.F13{
+    /* background-color: blue; */
+    height: 175px;
+    width: 100%;
+}
+.paraF13{
+    font-size: 18px;
+    float: left;
+    width: 60%;
+    margin: 10px;
+    margin-top: 45px;
+}
+.F13:hover{
+    color: orangered;
+}

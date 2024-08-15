@@ -1,0 +1,90 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>Event</title>
+     <!-- External js -->
+     <script src="2.variable.js" type="text/javascript"></script>
+     <!-- css -->
+     <link href="2.variable.css" type="text/css" rel="stylesheet">
+     <!-- bootstrap link -->
+     <link href="./css/bootstrap.css">
+     <link href="./css/bootstrap.min.css">
+     <!-- bootstrap online link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"></script>
+
+        
+</head>
+<body>
+    <!-- ----------------------- Event First ---------------------- -->
+    <button class="btn btn-danger" onclick="r1()">Form</button><br><br>
+    <div id="r1"></div><br><br>
+    <div id="r2"></div><br><br>
+    <div id="r3"></div><br><br>
+    <div id="r4"></div><br><br>
+    <p id="v1"></p>
+    <p id="v2"></p>
+    <p id="v3"></p>
+    <script>
+
+        function r1()
+        {
+            document.getElementById('r1').innerHTML="Name:<input type='text' id='name'>&nbsp;&nbsp;Email:<input type='text' id='email'>&nbsp;&nbsp;Mobile:<input type='text' id='mobile'>&nbsp;&nbsp;<button class='btn btn-primary' onclick='r2()'>ADD</button>&nbsp;<button class='btn btn-danger' onclick='remove1()'>Remove</button>";
+        }
+
+        function r2()
+        {
+            document.getElementById('r2').innerHTML="Name:<input type='text'>&nbsp;&nbsp;Email:<input type='text'>&nbsp;&nbsp;Mobile:<input type='text'>&nbsp;&nbsp;<button class='btn btn-primary' onclick='r3()'>ADD</button>&nbsp;<button class='btn btn-danger' onclick='remove2()'>Remove</button>";
+        }
+
+        function r3()
+        {
+            document.getElementById('r3').innerHTML="Name:<input type='text'>&nbsp;&nbsp;Email:<input type='text'>&nbsp;&nbsp;Mobile:<input type='text'>&nbsp;&nbsp;<button class='btn btn-primary' onclick='r4()'>ADD</button>&nbsp;<button class='btn btn-danger' onclick='remove3()'>Remove</button>";
+        }
+
+        function r4()
+        {
+            document.getElementById('r4').innerHTML="Name:<input type='text'>&nbsp;&nbsp;Email:<input type='text'>&nbsp;&nbsp;Mobile:<input type='text'>&nbsp;&nbsp;<button class='btn btn-warning' onclick='getvalue()'>Submit</button>&nbsp;<button class='btn btn-danger' onclick='remove4()'>Remove</button>";
+        }
+
+
+        function remove1()
+        {
+            document.getElementById('r1').style.display='none';
+        }
+
+        function remove2()
+        {
+            document.getElementById('r2').style.display='none';
+        }
+
+        function remove3()
+        {
+            document.getElementById('r3').style.display='none';
+        }
+
+        function remove4()
+        {
+            document.getElementById('r4').style.display='none';
+        }
+        function getvalue()
+        {
+            var name=document.getElementById('name').value;
+            document.getElementById('v1').innerHTML='Name'+name;
+            document.getElementById('name').value='';
+            
+
+            var email=document.getElementById('email').value;
+            document.getElementById('v2').innerHTML='Email:'+email;
+            document.getElementById('name').value='';
+
+            var mobile=document.getElementById('mobile').value;
+            document.getElementById('v3').innerHTML='Mobile'+mobile;
+            document.getElementById('name').value='';
+        }
+    </script>
+</body>
+</html>

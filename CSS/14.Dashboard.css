@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Dashborad{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+}
+.Dashboard-left{
+    height: 600px;
+    width: 20%;
+    float: left;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.dashDoard-ul{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    li{
+       font-size: 25px;
+       padding: 20px 0px;
+       text-align: center;
+    }
+}
+.dashDoard-ul li:hover{ 
+    background-color: red;
+    a{
+        color: aliceblue;
+    }
+    
+}
+.home-section{
+    width: 79%;
+    height: 600px;
+    float: left;
+    background-color:pink;
+}
+.about-section{
+    width: 79%;
+    height: 600px;
+    float: left;
+    background-color:rgb(165, 24, 47);
+}

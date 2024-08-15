@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Document</title>
+    <link href="12.form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Registraion Form</h1><hr>
+
+<!--  action is use for sending  other side  -->
+<!-- -------------- pattern is use in name carter ------- -->
+<form action="register.php" method="get/post">
+    Name:&nbsp;&nbsp;<input type="text" name="Name" value="" placeholder="enter your name" pattern="[a-zA-z]{10}"><br><br>
+    Email:&nbsp;&nbsp;<input type="email" name="Email" value="" placeholder="enter your email" required><br><br>
+    mobile:&nbsp;&nbsp;<input type="number" name="mobile" value="" placeholder="enter youe mobile no."  required><br><br>
+    Gender:&nbsp;&nbsp;<input type="radio" name="Gender" value="male " checked>Male
+                       <input type="radio" name="Gender" value="female">Femal<br><br>
+    DOB:&nbsp;&nbsp;<input type="date" name="DOB" value=""max="2024-02-16"min="2024-01-01"><br><br>
+    <!-- Course:&nbsp;&nbsp;<input type="text" name="Course" value=""><br><br> -->
+    course:<select>
+      <option>select Your course</option>
+      <option selected>HTML</option>
+      <option>CSS</option>
+      <option>Bootstrap</option>
+    </select><br><br>
+    <!-- Address:&nbsp;&nbsp;<input type="text" name="Address" value=""><br><br> -->
+    Address:<textarea placeholder="enter your address"></textarea><br><br>
+    <input type="checkbox">Term & conditions<br><br>
+    <input type="submit" value="register"><br><br>
+    :upload Image <input type="file">
+</body>
+</html>

@@ -1,0 +1,7 @@
+.border{
+    border:5px solid green; 
+    /******* border type solid, dash, double,inset,outset */
+    padding: 20px;
+    border-radius: 10px 20px 30px 40px;
+    
+}

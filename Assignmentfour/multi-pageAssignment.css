@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    float: left;
+    position: fixed;
+}
+.navbarfirst{
+    height: 100px;
+    width: 30%;
+    /* background-color: brown; */
+    float: left;
+}
+.navbarseconde{
+    height: 100px;
+    width: 70%;
+    float: left;
+    /* background-color: yellow; */
+}
+/* *************** Navbar maun *********** */
+.mein1{
+    list-style-type: none;
+}
+.mein1 li a{
+    text-decoration: none;
+    float: left;
+    padding: 50px;
+    font-size: 30px;
+    margin-top: -20px;
+    color: black;
+}
+/* ********************** Home section************ */
+.multihome{
+    height: 900Px;
+    width: 100%;
+    float: left;
+    /* background-color: red; */
+    padding-top: 110px;
+}
+.mhfirst{
+    height: 900px;
+    width: 50%;
+    /* background-color: aqua; */
+    float: left;
+}
+.multiimgfirst{
+    height: 900px;
+    width: 100%;
+}
+.mhseconde{
+    height: 900px;
+    width: 50%;
+    float: left;
+    /* background-color: black; */
+}
+.multiimgseconde{
+    height: 900px;
+    width: 100%;
+}
+/*********************** About section **************** */
+.multiAbout{
+    height: 1400px;
+    width: 100%;
+    float: left;
+    /* background-color: yellow; */
+    padding-top: 110px;
+}
+/*--------- A ------------ */
+.multiAboutfirstbox{
+    height: 900px;
+    width: 100%;
+    /* background-color: red; */
+}
+.firstboxone{
+    height: 900px;
+    width: 50%;
+    float: left;
+    /* background-color:black; */
+}
+.firstboxoneimg{
+    height: 900px;
+    width: 100%;
+}
+.secondeboxtwo{
+    height: 900px;
+    width: 50%;
+    float: left;
+    /* background-color: gold; */
+}
+.secondeboxtwoimg{
+    height: 900px;
+    width: 100%;
+}
+/* ----------------B---------------- */
+.multiAboutsecondebox{
+    height:500px ;
+    width: 100%;
+    /* background-color: blue; */
+}
+.secondeboximg{
+    height: 500px;
+    width: 100%;
+}
+/* ********************** services section ********* */
+.multiservices{
+    height: 1400px;
+    /* background-color: green; */
+    width: 100%;
+    padding-top: 110px;
+    float: left;
+}
+.servicesboxfirst{
+    height: 800px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.servicesboxone{
+    height: 800px;
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+}
+.servicesboxoneimg{
+    height: 800px;
+    width: 100%;
+}
+.servicesboxtwo{
+    height: 800px;
+    width: 50%;
+    float: left;
+    /* background-color: brown; */
+}
+.servicesboxtwoimg{
+    height: 800px;
+    width: 100%;
+}
+/* ************ servicesboxseconde ************** */
+.servicesboxseconde{
+    height: 600px;
+    width: 100%;
+    /* background-color:purple; */
+}
+.servicessecondeonebox{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.serviceshead1{
+    text-align: center;
+    font-size: 50px;
+
+}
+.serviceshead2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.serviceshead3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+/* ******************** services secondetwo box **** */
+.servicessecondetwobox{
+    height: 400px; 
+    width: 100%;
+    /* background-color: yellow; */
+}
+.servicesbox1{
+    height: 300px;
+    width: 80%;
+    /* background-color: blue; */
+    margin: auto;
+
+}
+.servicesA{
+    height: 290px;
+    width: 24%;
+    float: left;
+    margin: 5px;
+    /* background-color:green; */
+}
+.imgA{
+    height: 290px;
+    width: 100%;
+}
+.servicesB{
+    height: 290px;
+    width: 24%;
+    float: left;
+    margin: 5px;
+    /* background-color:green; */
+}
+.imgA{
+    height: 290px;
+    width: 100%;
+}
+.servicesC{
+    height: 290px;
+    width: 24%;
+    float: left;
+    margin: 5px;
+    /* background-color:green; */
+}
+.imgA{
+    height: 290px;
+    width: 100%;
+}
+.servicesD{
+    height: 290px;
+    width: 24%;
+    float: left;
+    margin: 5px;
+    /* background-color:green; */
+}
+.imgA{
+    height: 290px;
+    width: 100%;
+}
+/* ************************* Portofolio section */
+.portfoliofirstbox{
+    height: 2000px;
+    width: 100%;
+    float: left;
+    /* background-color: brown; */
+    padding-top: 110px;
+}
+/* ************** Aone ********** */
+.firstboxAone{
+    height: 1000px;
+    width: 100%;
+    /* background-color: blue; */
+}
+.boxA1one{
+    height: 500px;
+    width: 100%;
+    /* background-color: black; */
+}
+.boxA11one{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.boxA111one{
+    height: 440px;
+    width: 31%;
+    float: left;
+    /* background-color:blueviolet; */
+    margin: 10px;
+}
+.portfolioimgone{
+    height: 440px;
+    width: 100%;
+}
+.boxA112one{
+    height: 440px;
+    width: 31%;
+    float: left;
+    /* background-color:blueviolet; */
+    margin: 10px;
+    margin-top: 50px;
+}
+.portfolioimgtwo{
+    height: 440px;
+    width: 100%;
+
+}
+.boxA113one{
+    height: 440px;
+    width: 31%;
+    float: left;
+    /* background-color:blueviolet; */
+    margin: 10px;
+}
+.portfolioimgthird{
+    height: 440px;
+    width: 100%;
+}
+/* ************* A2 one ******* */
+.boxA2one{
+    height: 500px;
+    width: 100%;
+    /* background-color: green; */
+}
+.boxA21one{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    /* background-color: purple; */
+}
+.boxA211one{
+    height: 440px;
+    width: 31%;
+    margin: 10px;
+    float: left;
+    /* background-color: black; */
+}
+.imgA211{
+    height: 440px;
+    width: 100%;
+}
+.boxA212one{
+    height: 440px;
+    width: 31%;
+    margin: 10px;
+    float: left;
+    /* background-color: black; */
+    margin-top: 50px;
+}
+.imgA212{
+    height: 440px;
+    width: 100%;
+}
+.boxA213one{
+    height: 440px;
+    width: 31%;
+    margin: 10px;
+    float: left;
+    /* background-color: black; */
+}
+.imgA213{
+    height: 440px;
+    width: 100%;
+}
+
+/* ***************** Bone ********* */
+.firstboxBone{
+    height: 1000px;
+    width: 100%;
+    /* background-color:red; */
+}
+/* **************** first box B1 *********** */
+.firstboxB1one{
+    height: 400px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.firstboxB11{
+    height: 400px;
+    width: 80%;
+    /* background-color: blue; */
+    margin: auto;
+}
+.B11img{
+    height: 400px;
+    width: 100%;
+}
+
+/* *************** first box B2 ****8 */
+.firstboxB2one{
+    height: 600px;
+    width: 100%;
+    /* background-color: brown; */
+    margin-top: 100PX;
+    
+}
+.firstB21{
+    height: 600px;
+    width: 50%;
+    /* background-color: black; */
+    float: left;
+}
+.imgB21{
+    height: 600px;
+    width: 100%;
+
+}
+.firstB22{
+    height: 600px;
+    width: 50%;
+    /* background-color: brown; */
+    float: left;
+}
+.imgB22{
+    height: 600px;
+    width: 100%;
+}
+/* ************************* Blog section ******** */
+.blog{
+    height: 900px;
+    width: 100%;
+    /* background-color: yellow; */
+    padding-top: 110px;
+    float: left;
+}
+/************************* blog first **************** */
+.blogfirstbox{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.blogfirstbox1{
+    height: 250px;
+    width: 60%;
+    margin: auto;
+    /* background-color: blueviolet; */
+}
+.blogheadone{
+    text-align: center;
+    font-size: 70px;
+}
+.blogheadtwo{
+    text-align: center;
+    font-size: 70px;
+}
+.blogheadthird{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.blogheadfour{
+    text-align: center;
+    font-size: 30px;
+}
+/*  ***************** seconde blog ****************/
+.blogsecondebox{
+    height: 600px;
+    width: 100%;
+    /* background-color: green; */
+}
+.blogsecondebox1{
+    height: 500px;
+    width: 93%;
+    /* background-color: brown; */
+    margin: auto;
+}
+.blogseconde11{
+    height: 500px;
+    float: left;
+    width: 50%;
+    /* background-color: blueviolet; */
+    
+}
+.blogseconde111{
+    height: 500px;
+    width: 40%;
+    float: left;
+    /* background-color: blue; */
+}
+.blogimgone{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.blogseconde112{
+    height: 500px;
+    width: 60%;
+    float: left;
+    /* background-color: black; */
+}
+.blogimgtwo{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.blogseconde12{
+    height: 500px;
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+
+}
+.blogseconde121{
+    width: 40%;
+    float: left;
+    height: 500px;
+    /* background-color: rgb(165, 226, 43); */
+}
+.blogimgthird{
+    height: 500px;
+    width: 100%;
+}
+.blogseconde122{
+    width: 60%;
+    height: 500px;
+    float: left;
+    /* background-color: blue; */
+}
+.blogimgfour{
+    height: 500px;
+    width: 100%;
+}
+/* ******************* contant section ******** */
+.contactsection{
+    height: 600px;
+    width: 100%;
+    /* background-color: yellow; */
+    padding-top: 110px;
+    float: left;
+}
+.contactsection1{
+    height: 600px;
+    width: 40%;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.contactimgone{
+    height: 600px;
+    width: 100%;
+}
+.contactsection2{
+    height: 600px;
+    width: 60%;
+    float: left;
+    /* background-color: brown; */
+}
+.contactimgtwo{
+    height: 600px;
+    width: 100%;
+}

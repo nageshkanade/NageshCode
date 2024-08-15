@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="name">
+
+        <!-- <p>Name :<span id="name"></span></p> -->
+    </div>
+    <script>
+
+        // let name = 'nagesh'
+        //let sname = 'kanade'
+
+        //console.log('My name is '+name,sname)
+        //console.log(`my name is ${name} ${sname}`)
+
+
+        let Student_data = [
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'true' },
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'true' },
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'true' },
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'false' },
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'false' },
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'fale' },
+            { 'Name': 'Pratik', 'Mob': '99222784377', 'email': 'pratik@gmail.com', 'active': 'false' },
+
+        ];
+        // console.log(Student_data[0].Name)
+        //document.write(JSON.stringify(Student_data [0]),JSON.stringify(Student_data [1]))
+
+        //console.log(Student_data[0].Name,Student_data[1]);
+
+        // let filterData = Student_data.filter((item)=>item.active ==='true');
+        //  console.log(filterData);
+
+        //  let Date = Student_data.slice(0,3).map((item, index) =>
+
+        //  let Date = Student_data.map((item, index) => {
+
+        //return 'Name :'+item.Name+'&nbsp;&nbsp;Mob :'+item.Mob+'&nbsp;&nbsp;Mob :'+item.email+'<br>'
+
+        // console.log(item.Name)
+        // console.log(index)
+        // console.log(item.Name)
+        // return `<div class='col-md-13'>
+        //     <<div class='row'>
+        //         <div class='card bg-primary text-white p-3 mx-3'>
+        //             <div class='card-body'>
+        // <span>Name:${item.Name}</span>
+        // <span>Mob:${item.Mob}</span>
+        // <span>Email:${item.email}</span>
+        // </div>
+        //    </div>
+        //        </div>
+        //           </div>
+        //     `
+        //  });
+        /// console.log(Date);
+        // document.getElementById('name').innerHTML = Date;
+
+    </script>
+</body>
+
+</html>
+<!-- Json = Array + object => Json is the independent
+
+     let course=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+     let course=['H':HTML','c':CSS','B':BOOSTRAP','J':JS','R':REACT JS','A'Angular'];
+
+front-end                       Server                             Back-end 
+                                Request
+JavaScript            -----------------------------                 .Net
+                                  API
+                      ------------------------------
+(Date)                          Response 
+
+1.Json.parse -Array (string array to Normal Array)
+             -object (string object to normal object)
+             for ex =>
+             
+     let course='['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular']'';
+     let course='{'H':HTML','c':CSS','B':BOOSTRAP','J':JS','R':REACT JS','A'Angular'}';
+
+ 2.Json.stringyfy =>  Array ( Array to string Array)  
+                     -object(object to string object)
+
+ Data=> 
+ [] -> Arrat -Index no
+ {} -> Object -Property 
+ -->
+<!-- //     let data = {
+    //         0 [{ 'Name':'Pratik','Mob':'99222784377','email':'pratik@gmail.com' }],
+    //          1[{ 'Name':'Pratik','Mob':'99222784377','email':'pratik@gmail.com' }],
+    //         2 [{ 'Name':'Pratik','Mob':'99222784377','email':'pratik@gmail.com' }],
+    //         3 [{ 'Name':'Pratik','Mob':'99222784377','email':'pratik@gmail.com' }],
+    //         4 [{ 'Name':'Pratik','Mob':'99222784377','email':'pratik@gmail.com' }],
+    //         5 [{ 'Name':'Pratik','Mob':'99222784377','email':'pratik@gmail.com' }]
+           
+    //     } This method are this is not run 
+     -->

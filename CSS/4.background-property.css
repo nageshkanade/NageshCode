@@ -1,0 +1,13 @@
+.bgProperty{
+    background-color: red;
+    background-image: url(lion.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-attachment: fixed;   
+}
+/* ***************** color code *******************/
+.colorcode{
+    background-color: #77ff00;
+    height: 100px;
+    margin-top: 10px;
+}

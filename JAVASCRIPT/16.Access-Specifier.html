@@ -1,0 +1,32 @@
+<script>
+// 1.Public
+// 2.private
+// 3.protected
+
+    class parent
+    {
+        course1='Reacts'
+        course2='Anguar'         //.........THis is call pubilc
+        course3='Next Js'
+
+        abc()
+        {
+            console.log('Have a Nice DaY....!') //........This is call Private
+        }
+    }
+    obj=new parent()
+    console.log(obj)
+    obj.abc()
+    
+ class child extends parent //.......... This is call protected
+ {
+    pqr()
+    {
+        console.log('pqr is calling....!')
+    }
+ }
+obj1=new child()
+console.log(obj1)
+obj1.pqr()
+
+</script>

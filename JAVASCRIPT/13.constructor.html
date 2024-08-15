@@ -1,0 +1,41 @@
+<script>
+
+    class pqr 
+    {
+        course = 'JavaScript'  //........Property
+
+        xyz(a) 
+        {
+           // subject='React Js' //...............Property
+            console.log('hi hello')
+
+            return 10 + a; //............60
+        }
+
+    abc(b) //............... Method
+    {
+        console.log('hi hello')
+        console.log('Access Value form abcMethod',this.course)
+        return 300 - b //........
+    }
+
+        constructor(b)             //.........super methods
+        {
+            console.log('Hey constructor, Welcome to our Family...!');
+            //return 'HappY Good Day.......!'
+           // return 50+100;
+           console.log('This is Constructore Value...!',b+10)
+        }
+
+    }
+    obj = new pqr(100) //....object..... => constructor ...100
+
+    //console.log(obj.xyz(50));
+    Ans=obj.xyz(50);//.....60
+     Ans1=obj.abc(100) //.......200
+     console.log(Ans*Ans1); //.... Ans is 12000
+
+    console.log(obj.course)
+
+
+</script>

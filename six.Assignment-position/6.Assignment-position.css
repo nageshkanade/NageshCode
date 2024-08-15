@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.First-Box{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+.First-Box-1{
+    height: 100px;
+    width: 40%;
+    background-color: red;
+}
+.First-Box-2{
+    height: 100px;
+    width: 30%;
+    background-color: brown;
+    position:absolute;
+    left: 580px;
+    top:0px;
+}
+.First-Box-3{
+    height: 100px;
+    width: 33%;
+    background-color: rgb(114, 42, 165);
+    position:absolute;
+    left: 1022px;
+    top:0px;
+}
+.second-Box{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.second-Box-1{
+    height: 100px;
+    width: 50%;
+    background-color: gold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.second-Box-2{
+    height: 100px;
+    width: 50%;
+    background-color: rgb(77, 255, 0);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.second-Box-3{
+    height: 200px;
+    width: 19.4%;
+    background-color: rgb(255, 106, 0);
+    position: absolute;
+    left: 700px;  
+}
+.second-Box-4{
+    height: 100px;
+    width: 33%;
+    background-color: brown;
+    position: absolute;
+    right:0px;
+}
+.second-Box-5{
+    height: 100px;
+    width: 33%;
+    background-color: rgb(126, 10, 10);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.Third-Box{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.Third-Box-1{
+    height: 100px;
+    width: 40%;
+    background-color: #d90f0f;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.Third-Box-2{
+    height: 100px;
+    width: 40%;
+    background-color: #870505;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.Third-Box-3{
+    height: 200px;
+    width: 30%;
+    background-color: yellow;
+    position: absolute;
+    left: 580px;
+}
+.Third-Box-4{
+    height: 100px;
+    width: 30.6%;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+}
+.Third-Box-5{
+    height: 100px;
+    width: 30.6%;
+    background-color: rgba(0, 238, 255, 0.738);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.Four-Box{
+    height: 240px;
+    width: 100%;
+    background-color: blue;
+}
+.Four-Box-1{
+    height: 240px;
+    width: 50%;
+    background-color: aqua;
+    float: left;
+    position: relative;
+}
+.Four-Box-11{
+    height: 80px;
+    width: 80%;
+    background-color: red;
+    position: absolute;
+    top: 32px;
+    left: 70px;
+}
+.Four-Box-12{
+    height: 100px;
+    width: 50%;
+    background-color: gold;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.Four-Box-13{
+    height: 100px;
+    width: 50%;
+    background-color: rgb(170, 149, 31);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.Four-Box-2{
+    height: 240px;
+    width: 50%;
+    background-color: rgb(18, 177, 177);
+    float: left;
+    position: relative;
+}
+.Four-Box-21{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(6, 6, 100);
+}
+.Four-Box-211{
+    height: 80px;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.Four-Box-212{
+    height: 80px;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.Four-Box-22{
+    height: 120px;
+    width: 50%;
+    background-color: rgb(186, 165, 165);
+}
+.Four-Box-23{
+    height: 120px;
+    width: 50%;
+    background-color: rgb(132, 37, 37);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

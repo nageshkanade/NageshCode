@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Document</title>
+    <!-- External js -->
+    <script src="2.variable.js" type="text/javascript"></script>
+    <!-- css -->
+    <link href="2.variable.css" type="text/css" rel="stylesheet">
+    <!-- bootstrap link -->
+    <link href="./css/bootstrap.css">
+    <link href="./css/bootstrap.min.css">
+    <!-- bootstrap online link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        <style>
+            .headTittle{
+
+                text-align: center;
+            }
+        </style>
+</head>
+
+<body>
+    <!--------------------------------------------->
+    <!-- 1.variable
+    2.operators
+    3.datataype
+    4.prepare statement( conditional If else)
+    5.loops
+    6.functions -->
+
+    <!------------------- variable --------------------------->
+
+    <script>
+        /*********************** variable ***********************/
+        var name = "javascript";
+        // document.write(name);
+        /******************************** variable Rules *******************************
+            vaiable are containers for storing information
+
+             1.variable follow case sensitive rules
+                2. we can not store multiple data in simple varible
+                    3.we cannot decalre variable name with spece
+                         4.we cannot declare any type of digit no before variable name
+                            5.in spacial symbol charcater we can use only $ and _
+                            
+         ************************************************************************** / 
+
+        /****************************** Operators *********************** 
+            * javaScript operators are symbols used to operate the operands.
+                operators are used to perform specific mathematical and logical computations on operands*
+        1.Arithmatic operators (+,-,/,%,*)
+        2.Logical operators(&&,||)
+        3.conditional operators(>,>=,<,<=,!==)
+        4.Increment and decriment operators(++,--)
+        5.Assigment operators(=,===)
+       *************************************************** */
+
+    /******************************************** DataTypes (Dynamic) ******************************* 
+        
+        1.Number(int.float)
+        2.string
+        3.Boolean
+        4.object
+        5.undefined
+        6.null 
+        7.BigInt 
+        8.Symbol 
+       *********************** Number Integer and float***************************/ 
+    //   number is the collection of digit from 0 to 9 
+      var x=91; 
+      var y=100.2586;   
+      document.write(x+'<br>');
+      document.write(y +'<br>');
+    /**************************** string **************************/ 
+    // string is a colletion of charcater written in single Quote and double Quote  
+    // chaarcter = a, b, D,etc
+    //  storing= "nagesh",'rajesh',etc
+    /*********************************/ 
+    var course="javascript is a backbone of front end techology 100%";
+
+    var course1="<h1 class='headTittle text-primary'>javascript is Dynmaic based data type languager</h1>";
+
+    var course2="<h2 class='text-success'style='text-align:center;'>javascript is Dynmaic based data type languager</h2>";
+
+    var course3="<h3 class='headTittle1 text-warning'>Javascript is Dymaic based data type languager</h3>";
+
+    var course4="<input type='text'>";
+
+    document.write(course1);
+    document.write(course2);
+    document.write(course3);
+    document.write(course4);
+    
+    // 3+4 =Arithmatic
+    // 'dfl'+'slfjlj'=concataton
+    // 4887659+'gjlgjfgh'=conctation
+
+    /*********************** Array******************/ 
+    // Array is also variable which is store maltiple data for different different datatype
+
+    var course=['HTML','CSS','BOOTSTRAP','JS','REACT JS',145,2569.245] //index number
+    document.write(course[4]);
+
+    /************************************ object *****************************/ 
+    //object is also variable which is store mutiple data in key value pairs 
+
+    var course5={
+        'h':'HTML',
+        'C':'CSS',
+        'B':'BOOTSTRAP',
+        'r':'reactJs',
+        's':'100',
+        'q':'12.0568'
+    }
+    // console.log(course5.h,course5.C,course5.B,course5.r,course5.s,course5.q,);
+    document.write(course5);
+    console.log(course5);
+    console.log(course5.h)
+    
+
+    /********************************** boolean ******************************/ 
+        // 1.true
+        // 2.false 
+
+        /*********************************** Null **************************/
+        
+        var J="Javascript";
+            J=null;
+        console.log(J);
+
+        // **************************** Empty ***************************/
+        var j = "javascript";
+        var j = "";
+        console.log(`empty value is : ${j}`)
+ 
+        /************************* conditional statement ************************/ 
+
+        var marks=35;
+        if(marks>=35 || marks<=35)
+            // 35 >= 35  || 35 <= 35
+        {
+            // true
+            console.log('congratulation.....!');
+        }
+        else
+        {
+            // false
+            console.log('Sorry, Better Luck Next Time...!');
+        }
+
+        /******************************** Loops *****************************/ 
+            // 1. for,
+            // 2.while 
+            // 3.do_while 
+            /****************** For ***********************/ 
+         for(i=25;i>=5;i--)
+         {
+            console.log('Your value Are :-',i);
+         } 
+        /*********************** while ***********************/   
+        var x=21;
+        while(x<35)
+        {
+            console.log('Your output Is:-',x)
+            x++;
+        }
+        /************** do_while ************/ 
+        var y=91
+       do{
+        console.log('Your Number Is :-',y)
+       }
+       while(y>=100)
+
+    /********************** function ************************/    
+    // Function is a block of statement it is use to repeat again and again 
+
+    function nagesh(x,y,r) //function declartion ,paremeter
+    {
+        // alert('Jay shree Ram ');
+        // document.write('jay shree ram')
+        // console.log('Jay shree Ram')
+        console.log('Addition of Number is :-',x+y-r);
+    }
+    nagesh(30,40,20); // function calling ,Argument
+    </script>
+
+
+</body>
+
+</html>

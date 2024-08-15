@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div   id="box">
+        <input type="text" id="color">
+        <input type="text" id="color1">
+        <button class="btn btn-danger" onclick="rajesh()">click me</button>
+        <p id="para">Welcome to Developer Guru family</p>
+    </div>
+    <script>
+        rajesh=()=>
+        {
+            var nagesh=document.getElementById('color').value;
+            document.getElementById('para').style.backgroundColor=nagesh;
+
+            var rajesh=document.getElementById('color1').value;
+            document.getElementById('para').style.color=rajesh;
+        }
+
+       
+    </script>
+</body>
+</html>

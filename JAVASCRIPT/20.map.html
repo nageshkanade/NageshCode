@@ -1,0 +1,31 @@
+<script>
+    
+  //     const res1 = value;
+  //     return res1;
+
+  // })
+
+  // console.log(res)
+
+  const obj = [
+    {
+      name: "rajesh",
+      age: 20,
+      marks: 90,
+      address: {
+        village: "bhenda",
+        pincode: 414605,
+      },
+    },
+    { name: "Nagesh", age: 20, marks: 85 },
+    { name: "Dharma", age: 20, marks: 70 },
+    { name: "Gani", age: 20, marks: 60 },
+  ];
+
+
+  obj.map((val, ind) => {
+    if (val.name == "rajesh" || val.marks >= 80) {
+      console.log(val)
+    }
+  })
+</script>

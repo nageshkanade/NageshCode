@@ -1,0 +1,39 @@
+<script>
+
+
+    let x = confirm("do you want to check number");
+    while(x == true){
+        if (x) {
+            let a = prompt("Enter the number");
+        // console.log(typeof(a))
+        let number = parseInt(a);
+        console.log(typeof (number))
+        if (number == 1234) {
+            
+            alert("login successfull")
+            break;
+        }
+        else {
+            alert("cannot access")
+        }
+    } else {
+        alert("Go back...>")
+    }
+    x = confirm("do you wnat to check number again")
+    }
+
+
+    const storeData = [
+        {'name':'rajesh','no':415545,
+            address:{
+                village :'bhenda',
+                pincode:414605
+            }
+        },
+        {'name':'nagesh','no':415545,},
+        {'name':'om','no':415545,},
+        {'name':'Dharm','no':415545,},
+        {'name':'gani','no':415545,},
+    ]
+console.log(storeData[0].address.village)
+</script>

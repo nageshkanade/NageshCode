@@ -1,0 +1,39 @@
+
+<script>
+
+    /********************************* Date () ********************************************/
+
+    let d = new Date()
+    document.write(d+'<br>')
+
+    // sunday,Monday,Thueday,...,Saturday;  
+     // 0.1.2.3.4.5.6.7  
+    /*************************** getDate() ************************/
+        let d1=['sunday','Monday','tuesaday','wednsday','thuraday','friday','saturday'];
+         document.write(d1[1])
+        let name = document.write(d1[d.getDay()]+"<br>");
+
+         document.write(d.getDate());
+
+
+        /****************************** getMouth() **************/
+        // janunary febuary march april may june jully auguest september,......
+        let m=['january','febuary','march','april','may','june','jully','auguesst','september','octomber','nov','dec'];
+        // document.write(m[5])
+        //document.write(m[d.getMonth()]+'<br>')
+        // document.write(d.getMonth()); 
+
+        /***************** getDate() *****************/
+        //document.write(d.getDate()+'<br>');
+        /*************************** geYear() **************/
+        //document.write(d.getFullYear()+'<br>')
+
+        /***************************************/
+        document.write(d.getFullYear()+'<br>')
+        document.write(d.getHours()+'<br>')
+        document.write(d.getMinutes()+'<br>')
+        document.write(d.getSeconds()+'<br>')
+        document.write(d.getMilliseconds()+'<br>')
+    
+
+</script>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event</title>
+     <!-- External js -->
+     <script src="2.variable.js" type="text/javascript"></script>
+     <!-- css -->
+     <link href="2.variable.css" type="text/css" rel="stylesheet">
+     <!-- bootstrap link -->
+     <link href="./css/bootstrap.css">
+     <link href="./css/bootstrap.min.css">
+     <!-- bootstrap online link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"></script>
+</head>
+<body>
+   <button class="btn btn-warning" onclick="form1()">Click Me</button>
+   <div id="abc"></div><br><br>
+   <div id="rajesh"></div>
+   <div id="Total-price"></div>
+    <script>
+      function form1()
+      {
+        document.getElementById('abc').innerHTML="Name:<input type='text' id='name''>&nbsp;&nbsp;Email:<input type='text' id='email'>&nbsp;&nbsp;Number:<input type='text' id='number'  ><br><br>Product:<input type='text' id='product'  >&nbsp;&nbsp;Prize:<input type='text' id='prize' >&nbsp;&nbsp;Quantity:<input type='text' id='quantity'  onchange='nagesh()'>&nbsp;&nbsp;Total Price:<input type='text' id='totalPrice'><br><br> Tax(5%):<input type='text' id='tax' >&nbsp;&nbsp;Gst(18%):<input type='text' id='gst'  >&nbsp;&nbsp;Total:<span id='sprice'></span><button class='btn btn-primary' onclick='showprice()'>submit</button>";
+      
+      }
+
+      function nagesh()
+      {
+        
+        var prize=document.getElementById('prize').value;
+        var quantity=document.getElementById('quantity').value;
+        
+
+        var totalPrice = prize * quantity;
+
+        // document.getElementById("totalPrice").value = prize * quantity;
+
+        document.getElementById("totalPrice").value = totalPrice;
+
+        // var Tax = (prize * quantity) * 5 / 100;
+        var Tax = totalPrice * 5 / 100; 
+
+        var Gst = totalPrice * 18 / 100;
+
+        document.getElementById('tax').value = Tax;
+        document.getElementById('gst').value = Gst;
+
+        document.getElementById('sprice').innerHTML=totalPrice+Tax+Gst;
+      
+      }
+     function showprice()
+     {
+      document.getElementById('Total-price').innerHTML=" <table class='table zzzzzzzzzzzzzzzzztable-bordered'><tr><th>Name</th><th>Email</th><th>Number</th><th>Product</th><th>Prize</th><th>Quantity</th><th>Total</th><th>Tax(5%)</th><th>Gst(18%)</th><th>Total</th></tr> <tr><td><input type='text' id='name1'></td><td><input type='text' id='email1'></td><td><input type='text' id='number1'></td><td><input type='text' id='product1'></td><td><input type='text' id='prize1'></td><td><input type='text' id='quantity1'></td><td><input type='text' id='totalprice1'></td><td><input type='text' id='tax1'></td><td><input type='text' id='gst1'></td><td><input type='text' id='total1'></td><td><button class='btn btn-danger' data-bs-target='#nagu' data-bs-toggle='modal' onclick='showform()'>print<button></td></tr></table>";
+       
+      var Name=document.getElementById('name').value;
+      var Email=document.getElementById('email').value;
+      var Num=document.getElementById('number').value;
+      var Product=document.getElementById('product').value;
+      var Prize=document.getElementById('prize').value;
+      var Quantity=document.getElementById('quantity').value;
+      var Totalprice=document.getElementById('totalPrice').value;
+      var Tax=document.getElementById('tax').value;
+      var GST=document.getElementById('gst').value;
+      var Total=document.getElementById('sprice').innerHTML;
+
+     console.log(Name,Email, Num,Product,Prize,Quantity,Totalprice,Tax,GST,Total)
+
+      document.getElementById('name1').value=Name;
+      document.getElementById('email1').value=Email;
+      document.getElementById('number1').value=Num;
+      document.getElementById('product1').value=Product;
+      document.getElementById('prize1').value=Prize;
+      document.getElementById('quantity1').value=Quantity;
+      document.getElementById('totalprice1').value=Totalprice;
+      document.getElementById('tax1').value=Tax;
+      document.getElementById('gst1').value=GST;
+      document.getElementById('total1').value=Total;
+
+
+      document.getElementById('name').value='';
+      document.getElementById('email').value='';
+      document.getElementById('number').value='';
+      document.getElementById('product').value='';
+      document.getElementById('prize').value='';
+      document.getElementById('quantity').value=''
+      document.getElementById('totalPrice').value='';
+      document.getElementById('tax').value='';
+      document.getElementById('gst').value=''
+      document.getElementById('sprice').innerHTML='';
+
+    
+      
+     }
+     function showform(){
+      var raj1=document.getElementById('name1').value;
+      document.getElementById('abc1').value=raj1;
+
+      var raj2=document.getElementById('email1').value;
+      document.getElementById('abc2').value=raj2;
+
+      var raj3=document.getElementById('number1').value;
+      document.getElementById('abc3').value=raj3;
+
+      var raj4=document.getElementById('product1').value;
+      document.getElementById('abc4').value=raj4;
+
+      var raj5=document.getElementById('prize1').value;
+      document.getElementById('abc5').value=raj5;
+
+      var raj6=document.getElementById('quantity1').value;
+      document.getElementById('abc6').value=raj6;
+
+      var raj7=document.getElementById('totalprice1').value;
+      document.getElementById('abc7').value=raj7;
+
+      var raj8=document.getElementById('tax1').value;
+      document.getElementById('abc8').value=raj8;
+
+      var raj9=document.getElementById('gst1').value;
+      document.getElementById('abc9').value=raj9;
+
+      var raj10=document.getElementById('total1').value;
+      document.getElementById('abc10').value=raj10;
+     }
+    </script>
+    <div class="container">
+      <div class="modal" id="nagu">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">Form</div>
+            <div class="modal-body">
+              <form>
+                <label>Name:</label><input type="text" id="abc1">
+                <label>Email:</label><input type="text" id="abc2">
+                <label>Number:</label><input type="text" id="abc3"><br><br>
+                <label>Product:</label><input type="text" id="abc4">
+                <label>Prize:</label><input type="text" id="abc5">
+                <label>Quantity:</label><input type="text" id="abc6"><br><br>
+                <label>Total Price:</label><input type="text" id="abc7">
+                <label>Tax:</label><input type="text" id="abc8">
+                <label>GST:</label><input type="text" id="abc9"><br><br>
+                <label style="margin-left: 30%;">Total&nbsp;&nbsp;:</label><input type="text" id="abc10" style="margin-left: 5%;" id="model10">
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

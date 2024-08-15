@@ -1,0 +1,492 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ********************************** Navbar first box ***************************************** */
+.navbar{
+    background-color:#33ccc5;
+    height: 100px;
+    width: 100%;
+    float: left;
+    position: fixed;
+}
+.logo{
+    height: 100px;
+    width: 30%;
+    float: left;
+    /* background-color: yellow; */
+}
+.img{
+    height: 100px;
+    width: 70%;
+    float: left;
+    padding: 10px ;  
+}
+
+.navbarlogo{
+    height: 100px;
+    width: 70%;
+    float: left;
+    /* background-color: green; */
+}
+.menu{
+    list-style-type: none;
+}
+.menu li a{
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    color: white;
+    padding: 25px;
+    margin-top: 15px;
+}
+/* ************************ Home Section *******************/
+.homesection{
+    height: 920px;
+    width: 100%;
+    float: left;
+    padding-top: 105px;
+    /* background-color: yellow; */
+}
+/* ************************** home first box ***********************/
+
+.firstbox{
+    width: 50%;
+    height: 920px;
+    float: left;
+    /* background-color: green; */
+}
+.firstimg{
+    height: 900px;
+    width: 100%;
+    float: left;
+}
+/* *********************** home seconde box *************************/
+
+.secondebox{
+    /* background-color: brown; */
+    height: 920px;
+    width: 50%;
+    float: left;
+}
+.secondeimg{
+    height: 900px;
+    width: 100%;
+    float: left;
+}
+/* *********************** features section ******************* */
+.featuressection{
+    /* background-color: yellow; */
+    height: 1000px;
+    width: 100%;
+    float: left;
+    padding: 130px;
+}
+
+.featuresfirst{
+    /* background-color: blue; */
+    height: 800px;
+    width: 80%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.boxone{
+    height: 480px;
+    width: 100%;
+    float: left;
+    /* background-color: green; */
+
+}
+.A{
+    width: 24%;
+    height: 480px;
+    float: left;
+    margin: 0px 5px;
+    /* background-color: brown; */
+    border-radius: 40px;
+}
+.A:hover{
+    background-color: #33ccc5;
+}
+.Aimg{
+    margin-left: 100px;
+    margin-top: -42px;
+    width: 40%;
+    height: 100px;
+}
+.A1{
+    height: 425px;
+    width: 100%;
+    /* background-color: gold; */
+}
+.A2img{
+    width: 25%;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.reachout{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 115px;
+}
+.H{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.para1{
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* ******************* second box **************** */
+.boxtwo{
+    height: 320px;
+    float: left;
+    width: 100%;
+    /* background-color: blueviolet; */
+    border-radius: 40px;
+}
+.box1{
+    height:320px;
+    width: 25%;
+    float: left;
+    /* background-color: blue; */
+    
+}
+/* ********************* About section **************** */
+.aboutSection{
+    height: 900px;
+    width: 100%;
+    padding-top: 110px;
+    float: left;
+    /* background-color: yellow; */
+}
+.subaboutsection{
+    width: 80%;
+    height: 850px;
+    margin:auto;
+    /* background-color: black; */
+}
+.aboutfirstbox{
+    height: 850px;
+    width: 50%;
+    float: left;
+    /* background-color: rgb(255, 0, 0); */
+}
+.aboutimg{
+    height: 850px;
+    width: 100%;
+    float: left;
+}
+/* ************************** about seconde box ***** */
+.aboutsecondebox{
+    height: 850px;
+    width: 50%;
+    float: left;
+    /* background-color: purple; */
+}
+.subbox{
+    /* background-color: black; */
+  width: 100%;
+  height: 700px;
+  margin: 75px 0px;
+
+} 
+.secondebox1{
+    /* background-color: brown; */
+    width: 100%;
+    height: 200px;
+}
+.secondeboxh{
+    font-size: 20px;
+    padding: 20px;
+}
+.secondeboxh1{
+    font-size: 40px;
+    padding: 15px;
+}
+.secondeboxh1:hover{
+    color: #33ccc5;
+}
+.secondebox2{
+    height: 200px;
+    width: 100%;
+    /* background-color: blue; */
+}
+.seconde1{
+    height:200px ;
+    width: 33%;
+    float: left;
+    /* background-color: yellow; */
+}
+.secondeboxh2{
+    font-size: 60px;
+    padding: 30px;
+}
+.secondeboxh2:hover{
+    color: #33ccc5;
+}
+.parah2{
+    font-size: 25px;
+    padding: 20px;
+    margin-top: -50px;
+}
+.parah2:hover{
+    color: #33ccc5;
+}
+.secondebox3{
+    height: 250px;
+    width: 100%;
+    /* background-color: green; */
+}
+.secondeboxh3{
+    padding: 30px;
+    font-size: 20px;
+}
+.secondeboxh3:hover{
+    color:#33ccc5;
+}
+.secondeboxh31{
+    font-size: 30px;
+    padding: 20px;
+}
+.secondeboxh31:hover{
+    color: #33ccc5;
+}
+/* ***************************** Servicessection *****88 */
+.servicessection{
+    /* background-color: yellow; */
+    height: 800px;
+    padding-top: 110px;
+    float: left;
+    width: 100%;
+}
+.sevicesboxone{
+    height: 250px;
+    width: 100%;
+    /* background-color: green; */
+    float: left;
+}
+.heading1{
+    text-align: center;
+    font-size: 25px;
+    color: aquamarine;
+    margin-top: 10px;
+}
+.heading2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+    margin-top: 5px;
+}
+.sevicesboxseconde{
+    height: 550px;
+    width: 80%;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-left: 170px;
+}
+.sevicesfirst{
+    height: 520px;
+    width: 30%;
+    /* background-color: brown; */
+    float: left;
+    margin: 20px;
+}
+
+.img:hover{
+    box-shadow: 1px 4px 13px -6px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.oneimg{
+    height: 520px;
+    width: 100%;
+}
+.sevicesseconde{
+    height: 520px;
+    width: 30%;
+    /* background-color: brown; */
+    float: left;
+    margin: 20px;
+}
+.secondeimg{
+    height: 520px;
+    width: 100%;
+}
+.sevicesthird{
+    height: 520px;
+    width: 30%;
+    /* background-color: brown; */
+    float: left;
+    margin: 20px;
+}
+.thirdimg{
+    height: 520px;
+    width: 100%;
+}
+/************************** portfolio *************** */
+.portfolio{
+    height: 900px;
+    width: 100%;
+    float: left;
+    padding-top: 110px;
+    /* background-color: red; */
+}
+.portfoliofirstbox{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    /* background-color: brown; */
+}
+.portfolioheadone{
+    font-size: 20px;
+    color: aqua;
+}
+.portfolioheadseconde{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.portfolioheadthird{
+    font-size: 30px;
+    color: lightseagreen;
+}
+/* ******************* portfolio seconde box ****** */
+.portfoliosecondebox{
+    height: 600px;
+    width: 100%;
+    float: left;
+    /* background-color: yellow; */
+    margin-top: 70px;
+}
+.portfolioone{
+    height: 300px;
+    width: 100%;
+    /* background-color: brown; */
+}
+.portfolio1{
+    height: 300px;
+    width: 12.5%;
+    /* background-color: blueviolet; */
+    float: left;
+    
+}
+.portfolioimg1{
+    height: 300px;
+    width: 100%;
+}
+.portfolio2{
+    height: 300px;
+    width: 25%;
+    float: left;
+    /* background-color: blue; */
+}
+.portfolioimg2{
+    height: 300px;
+    width: 100%;
+}
+.portfolio3{
+    height: 300px;
+    width: 25%;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.portfolioimg3{
+    height: 300px;
+    width: 100%;
+}
+.portfolio4{
+    height: 300px;
+    width: 25%;
+    float: left;
+    /* background-color: blue; */
+}
+.portfolioimg4{
+    height: 300px;
+    width: 100%;
+}
+.portfolio5{
+    height: 300px;
+    width: 12.5%;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.portfolioimg5{
+    height: 300px;
+    width: 100%;
+}
+/* ************* contect us ********************* */
+.contect{
+    height: 900px;
+    width: 100%;
+    float: left;
+    background-color: skyblue;
+    padding-top: 110px;
+
+}
+.contectfirst{
+    height: 800px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    
+}
+.contectseconde{
+    height: 150px;
+    width: 80%;
+    /* background-color: brown; */
+    margin:auto;
+}
+.headseconde{
+    font-size: 20px;
+    text-align: center;
+    color: aqua;
+padding: 10px;
+}
+.headethird{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.headfour{
+    font-size: 30px;
+    text-align: center;
+    
+}
+/*                 third box     */
+.contectthird{
+    height:500px ;
+    width: 90%;
+    margin: auto;
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+.thirdone{
+    height: 400px;
+    width: 70%;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.imgone{
+    height: 400px;
+    width: 100%;
+}
+.thirdtwo{
+    height: 500px;
+    width: 30%;
+    float: left;
+    /* background-color: green; */
+}
+.imgtwo{
+    height: 500px;
+    width: 100%;
+}

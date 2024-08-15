@@ -1,0 +1,40 @@
+<script>
+
+    class abc  //...........Parent class
+    {
+        course = "JavaSript"
+        // course1 = "React Js"  //..............Property
+
+        no1 = 91;
+        no2 = 92; //........... Property
+        no3 = 93;
+
+        demo(a)
+         {
+            return 'return value',a;
+         }
+    }
+    //obj=new abc(); //............Object
+    //console.log('Course Value.....!',obj.course)
+
+    class xyz extends abc //......abc => child class
+    {
+        course3 = "Node Js";  //...Property
+        course="JavaSript";
+        no1=91;
+
+        lmn() 
+        {
+             var nagesh = super.demo('Js')
+            console.log(nagesh)
+           // console.log(super.demo('Js')); //.........Method
+
+        }
+    }
+    
+    obj1 = new xyz();
+    obj1.lmn();
+    // console.log(obj1.course);
+    // console.log(obj1.course3);
+    // console.log(obj1.no1)
+</script>

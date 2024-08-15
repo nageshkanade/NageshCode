@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event</title>
+     <!-- External js -->
+     <script src="2.variable.js" type="text/javascript"></script>
+     <!-- css -->
+     <link href="2.variable.css" type="text/css" rel="stylesheet">
+     <!-- bootstrap link -->
+     <link href="./css/bootstrap.css">
+     <link href="./css/bootstrap.min.css">
+     <!-- bootstrap online link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"></script>
+         <style>
+            .Form1{
+                border: 1px solid red;
+                text-align: center;
+            
+            }
+         </style>
+</head>
+<body>
+    <!-- ----------------------------- second event --------- --->
+
+    <button class="btn btn-danger" onclick="personalDetail()">Click Me</button>
+
+    <div id="abc"></div>
+    <div id="pqr"></div>
+    <div id="poi"></div>
+
+    <p id="n1"></p>
+    <p id="n2"></p>
+    <p id="n3"></p>
+    <p id="n4"></p>
+    <p id="n5"></p>
+    <p id="n6"></p>
+    <p id="n7"></p>
+    <p id="n8"></p>
+    
+   <script>
+    function personalDetail()
+    {
+        document.getElementById('abc').innerHTML="<div class='Form1'><h1>Personal Details</h1><br><br>Name:<input type='text' id='name'>&nbsp;&nbsp;Number:<input type='text' id='no'>&nbsp;&nbsp;Email:<input type='text' id='email'><br><br>Gender:<input type='text' id='gender'>&nbsp;&nbsp;DOB:<input type='text' id='dob'>&nbsp;&nbsp;Course:<input type='text' id='course'><br><br>City:<input type='text' id='city'>&nbsp;&nbsp;Address:<input type='text' id='address'>&nbsp;&nbsp;Address1:<input type='text' id='address1'>&nbsp;<button class='btn btn-warning'onclick='educationDetails()'>Next</button></div>";
+
+        document.getElementById('abc').style.display='block';
+        // 
+        document.getElementById('pqr').style.display='none';
+        
+        
+
+    }
+
+    function educationDetails(){
+        document.getElementById('abc').style.display='none';
+        // 
+        document.getElementById('pqr').style.display='block';
+
+        document.getElementById('pqr').innerHTML="<div class='Form1'><h1>Education Details</h1><br><br>Name:<input type='text' id='name'>&nbsp;&nbsp;Number:<input type='text' id='no'>&nbsp;&nbsp;Email:<input type='text' id='email'><br><br>Gender:<input type='text' id='gender'>&nbsp;&nbsp;DOB:<input type='text' id='dob'>&nbsp;&nbsp;Course:<input type='text' id='course'><br><br>City:<input type='text' id='city'>&nbsp;&nbsp;Address:<input type='text' id='address'>&nbsp;&nbsp;Address1:<input type='text' id='address1'><button class='btn btn-success'onclick='personalDetail()'>previous</button>&nbsp;<button class='btn btn-warning'onclick='familyDetails()'>Next</button></div>";
+        document.getElementById('pqr').style.display='block';
+        document.getElementById('poi').style.display='none';
+    }
+
+    function familyDetails(){
+        document.getElementById('pqr').style.display='none';
+        // 
+        document.getElementById('poi').style.display='block';
+
+        document.getElementById('poi').innerHTML="<div class='Form1'><h1> Family Details</h1><br><br>Name:<input type='text' id='name'>&nbsp;&nbsp;Number:<input type='text' id='no'>&nbsp;&nbsp;Email:<input type='text' id='email'><br><br>Gender:<input type='text' id='gender'>&nbsp;&nbsp;DOB:<input type='text' id='dob'>&nbsp;&nbsp;Course:<input type='text' id='course'><br><br>City:<input type='text' id='city'>&nbsp;&nbsp;Address:<input type='text' id='address'>&nbsp;&nbsp;Address1:<input type='text' id='address1'>&nbsp;<button class='btn btn-success'onclick='educationDetails()'>previous</button>&nbsp;<button class='btn btn-warning' onclick='checktheform()'>Submit</button></div>";
+    }
+
+    function checktheform()
+    {
+        document.getElementById('poi').style.display='none';
+        var name=document.getElementById('name').value;
+        document.getElementById('n1').innerHTML='Name:'+name;
+
+        var number=document.getElementById('no').value;
+        document.getElementById('n2').innerHTML='Number:'+number;
+
+        var email=document.getElementById('email').value;
+        document.getElementById('n3').innerHTML='Email'+email;
+
+        var gender=document.getElementById('gender').value;
+        document.getElementById('n4').innerHTML='Gender'+gender;
+
+        var dob=document.getElementById('dob').value;
+        document.getElementById('n5').innerHTML='DOB'+dob;
+
+        var course=document.getElementById('course').value;
+        document.getElementById('n6').innerHTML='Course'+course;
+
+        var city=document.getElementById('city').value;
+        document.getElementById('n7').innerHTML='City'+city;
+
+        var address=document.getElementById('address').value;
+        document.getElementById('n8').innerHTML='Address'+address;
+
+        var address1=document.getElementById('address1').value;
+        document.getElementById('n8').innerHTML='Address1'+address1;
+    }
+   
+   </script>
+        
+</body>
+</html>

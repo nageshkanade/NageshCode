@@ -1,0 +1,55 @@
+ <button onclick="login()">nagesh</button> 
+<button onclick="logout()">rajesh</button>
+<p><span id="login"></span></p>
+<p><span id="logout"></span></p> 
+<script>
+
+    // 1.cookies 
+    // 2.Session => session storage which stores data temperary 
+                  //  the data is deleted when browser is close
+    // 3.localstorage => local storage which stores data permantly
+
+    // sessionStorage.setItem('Name','Developer Guru');
+    // let client= sessionStorage.getItem('Name');
+    // document.write(client+'<br>');
+    
+//     /***************************** Local storage ****************************/ 
+    //  localStorage.setItem('Name','Nagesh',)
+    // let clientA=localStorage.getItem('Name');
+    //  document.write(clientA)
+    // localStorage.removeItem('Name');
+
+   // let studentDetails="{'studId':91,'Name':'Rajesh','Mob':770948130}";
+    let studentDetails={'studId':91,'Name':'Rajesh','Mob':770948130};
+    // localStorage.setItem('studentDtl',studentDetails);
+    // localStorage.setItem('studentDtl',JSON.stringify(studentDetails)); // object to string
+    // let abc = localStorage.getItem('studentDtl');
+    
+    // let obj =JSON.parse(abc) // string to object 
+    // studentDetails = "{'studId':91,'Name':'Rajesh','Mob':770948130}";
+    // document.write(abc)
+    // document.write(obj)
+    // console.log(abc)
+    // console.log(obj)
+    // console.log(abc.Name);
+    //console.log(obj)
+    //document.write(obj.Name);
+
+ function login(){
+    localStorage.setItem('userName','Developer Guru');
+let user = localStorage.getItem('userName');
+   document.getElementById('login').innerHTML='Welcome'+user;
+     document.getElementById('login').style.display='block';
+     document.getElementById('logout').style.display='none';
+ }
+
+    
+
+function logout(){
+     localStorage.removeItem('userName')
+     document.getElementById('login').style.display='none';
+     document.getElementById('logout').style.display='block';
+    document.getElementById('logout').innerHTML='your account has been succesfully......'
+ }
+
+</script>

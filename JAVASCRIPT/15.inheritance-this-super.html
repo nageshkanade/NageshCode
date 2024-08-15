@@ -1,0 +1,68 @@
+<script>
+
+class Parent //............. parent class (Base class)
+{
+    home='Rajgad'
+    car='Swift'     //..............property
+    money='1234566788'
+    no1=100
+    n02=200
+
+    abc() //.......Method
+    {
+        return this.home
+    }
+
+    pqr(no1,no2,name)
+    {
+        // console.log(subject)
+        console.log(no1+no2)
+        return no1+no2+name
+        // return coures='Nagesh'//.. This property not run
+    }
+}
+
+class child1 extends Parent //.......... child class (Derived class)
+{
+    p1()
+    {
+       console.log('calling child1....!')     //......... Method
+       console.log(this.home)
+       console.log(this.car)
+       console.log(this.money)
+       console.log('super method calling',super.abc())
+    }
+
+    // p1()                         //........... overriding vs overloading
+    // {
+    //     console.log('success...!') // This Method is overriding
+    // }
+    addition()
+    {
+        console.log('Addition of number is child1',this.no1+this.no2)
+    }
+}
+ obj=new child1()
+obj.p1()
+obj.addition()
+console.log(obj)
+
+class child2 extends Parent
+{
+    p2()
+    {
+        console.log(' calling child2..!')
+        //console.log('child2 Super Method Calling',super.pqr('JavaSript'))
+        // console.log('child2 Super Method Calling',super.pqr())
+        console.log('child2 Super Method Calling',super.pqr(10,10,'Javascript'))
+
+    }
+    multipication()
+    {
+        console.log('Mutipication of number is child2',this.no1*this.no2)
+    }
+}
+obj1=new child2()
+obj1.multipication()
+obj1.p2()
+</script>

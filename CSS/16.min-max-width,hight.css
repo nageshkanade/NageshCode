@@ -1,0 +1,26 @@
+.max-width{
+    background-color: red;
+    height: 100px;
+    max-width: 80%;
+    width: 60%;
+}
+.min-width{
+    background-color: yellow;
+    height: 200px;
+    min-width: 50%;
+    width: 70%;
+
+}
+/* *************** max min hight *********** */
+.max-hight{
+    background-color:purple;
+    width: 80%;
+    max-height: 200px;
+    height:100px;   
+}
+.min-hight{
+    background-color:brown;
+    width: 80%;
+    min-height: 100px;
+    height: 150px;
+}

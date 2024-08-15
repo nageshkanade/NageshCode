@@ -1,0 +1,23 @@
+.flex{
+    background-color: purple;
+    color: red;
+    display: flex;
+    font-size: 60px;
+
+}
+.inline p{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    display: inline;
+}
+.black a{
+    display: block;
+  
+}
+.inline-block a,p{
+    background-color: black;
+    color: white;
+    display: inline-block;
+  
+}

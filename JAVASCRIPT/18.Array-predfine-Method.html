@@ -1,0 +1,77 @@
+<script>
+
+    /************************* Array pridfine method *****************/
+
+    /************* array ***********/
+    let course=['HTML','CSS','BOOSTRAP','JS','REACT JS'];
+    console.log(course);
+    /***************** Array length *****************/
+    let course1=['HTML','CSS','BOOSTRAP','JS','REACT JS'];
+    console.log(course1.length);
+     /***************** Array Tostring *****************/
+     let course2=['HTML','CSS','BOOSTRAP','JS','REACT JS'];
+     console.log(course2.toString());
+     /***************** Array concat() *****************/
+     let course3=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angualar'];
+     let course4=['PHP','JAVA','PYTHON','NODE JS','C','EXPRESS JS'];
+     console.log(course3.concat(course4,'okk'));
+     let course5=['MONGO DB','ORACLE','MYSQL'];
+     console.log([...course3,...course4,...course5])
+     /************* Array pop()***********/
+    let course6=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    console.log(course6.pop());
+    console.log(course6);
+     /************* Array push()***********/
+     let course7=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    course7.push('NODE JS');
+    console.log(course7);
+     /************* Array shift()***********/
+     let course8=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    console.log(course8.shift());
+     /************* Array unshift()***********/
+     let course9=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    course9.unshift('Nagesh');
+    console.log(course9);
+     /************* Array splice()***********/
+     let course10=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    // course10.splice(0);// This is print array[]
+     //course10.splice(1);// and This is print array['HTML']
+     //course10.splice(0,1);
+     //course10.splice(1,2,'NODE JS');
+     //course10.splice(1,0,'NODE JS');
+     //course10.splice(0,0,'NODE JS');
+     //course10.splice(0,1,'NODE JS');
+     //course10.splice(0,6,'NODE JS');
+     course10.splice(0,6,'NODE JS','EXPRESS');
+     console.log(course10)
+     /*************** slice *****************/
+     let course11=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+     //console.log(course11.slice(1))
+     console.log(course11.slice(2,3))
+     /************** raverse() ************/
+     let course12=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    console.log(course12.reverse());
+    /************** indexOf() ************/
+    let course13=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular'];
+    console.log(course13.indexOf('JS'));
+    /************** includes() ************/
+    let course14=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular','JS'];
+    console.log(course13.includes('JS')); // this method show a true or folse check
+    
+    /************** sort() ************/
+    let course15=['HTML','CSS','BOOSTRAP','JS','REACT JS','Angular','JS'];
+    console.log(course15.sort()); 
+    console.log(course15.reverse()); 
+
+    let course16=[15,48,8,4,7,,533,2,61];
+    // console.log(course16.sort())
+    Ans=course16.sort(function(p,q)
+{
+   return q-p
+}
+)
+console.log(Ans); 
+    
+    
+    
+</script>

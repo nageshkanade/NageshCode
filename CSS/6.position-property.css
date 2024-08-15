@@ -1,0 +1,30 @@
+/* ************* Position-absolute ****************/
+
+.position-absolute{
+    height: 700px;
+    width: 100%;
+    background-color: yellow;
+}
+.heading{
+    border: 4px solid red;
+    width: 225px;
+    background-color: aqua;
+    position:absolute;
+    right: 600px;
+    bottom: 400px;
+}
+/* ************* Position- fixed *********** */
+.position-fixed{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    position:fixed;
+}
+/********************** position-sticky************** */
+.position-sticky{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    position:sticky;
+    top: 100px;
+}

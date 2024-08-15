@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>Dom- demo</title>
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <!-- DOM demo -->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="adhira.jpg" style="height: 200px; width: 100%;">
+                        <h5 id="raj">Hello Nagesh rajendra kanade</h5>
+                        <p class="Dharm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui neque ut officiis nesciunt facere totam obcaecati voluptatibus ad dicta, cupiditate quidem deserunt consequuntur quam. Voluptatum voluptate ab vel eum sint!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="adhira.jpg" style="height: 200px; width: 100%;">
+                        <h5>Hello Nagesh rajendra kanade</h5>
+                        <p class="Dharm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui neque ut officiis nesciunt facere totam obcaecati voluptatibus ad dicta, cupiditate quidem deserunt consequuntur quam. Voluptatum voluptate ab vel eum sint!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="adhira.jpg" style="height: 200px; width: 100%;">
+                        <h5>Hello Nagesh rajendra kanade</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui neque ut officiis nesciunt facere totam obcaecati voluptatibus ad dicta, cupiditate quidem deserunt consequuntur quam. Voluptatum voluptate ab vel eum sint!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <script>
+        //first method
+     let x =document.getElementById('raj')
+     x.style.color='red';
+     // seconde method
+     let p = document.getElementsByClassName('Dharm');
+     p[0].style.color='blue'                          // This is not run
+     p[1].style.color='blue'                          // This is not run
+
+        // theird
+        let y = document.querySelectorAll('.Dharm');
+        y[0].style.color='blue'
+        y[1].style.color='red'
+     // foruth
+     let u = document.getElementsByTagName('p');
+     u[3].style.color='yellow'
+
+     </script>
+ </body>
+ </html>

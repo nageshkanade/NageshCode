@@ -1,0 +1,44 @@
+<script>
+    /****************** functional closer *****************
+    function fun()
+    {
+        // simple function
+    }
+    fun()
+
+    fun=()=>
+    {
+     // this is a arrow function 
+    }
+    fun()
+ 
+    const fun=()=>
+    {
+    
+    }
+    fun()
+*****************************************/
+    // let x = 20; //....20 
+    // let y = 50;
+    // console.log(y) //....50
+    // {
+    //     let x = 30; //....30........This is
+    //     y = 100;    // ..............\\over ride
+    //     console.log(x)
+    //     console.log(y) //....100
+    // }
+    // console.log(x) // This Ans is 20
+    // console.log(y) //....50
+
+    // //  document.write(x)
+
+    const fun=()=>{
+        let x=20
+        let y=30 
+        return x+y 
+    }
+    let Ans=fun();
+        Ans=150;
+    console.log(Ans+100);
+    
+</script>

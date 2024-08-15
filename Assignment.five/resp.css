@@ -1,0 +1,171 @@
+@media screen and (max-width:1470px){
+    /* .About-Section{
+        height: 700px;
+    }
+    .About-Box{
+        height: 700px;
+    }
+    .About-first{
+        height: 700px;
+    }
+    .About-second{
+        height: 700px; */
+    }
+
+@media screen and (max-width:1360px){
+    .left-head{
+        font-size: 25px;
+    } 
+    .left-head-2{
+        font-size: 30px;
+    }
+    .left-para{
+        font-size: 15px;
+        
+    }
+}
+@media screen and ( max-width:1255px){
+    /* navbar */
+   .second-heading-2{
+    width: 75%;
+    li{
+        font-size: 15px;
+        padding: 15px;
+        margin-top: -10px;
+    
+    }
+    i{
+        font-size: 10px;
+        
+    }
+   }
+.second-heading-1{
+    width: 25%;
+}
+.logoimg{
+    margin: 5px 80px;
+    width: 60%;
+}
+/* home section */
+.left-head{
+    font-size: 25px;
+    margin-left: 160px;
+}
+.left-head-2{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.left-para{
+    font-size: 20px;
+    margin-left: 150px;
+}
+/* home seconde */
+.Box-1{
+    height: 330px;
+    margin-top: 10px;
+}
+/* About */
+
+
+}
+@media  screen and (max-width:1135px){
+    .Box-11-head {
+        
+        font-size: 20px !important;
+      }
+
+      .home-row-31{
+        width: 95%;
+    }
+}
+@media screen and (max-width:1110px){
+    .left-head{
+        font-size: 20px;
+    } 
+    .left-head-2{
+        font-size: 25px;
+    }
+    .left-para{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1000px){
+    .home-box{
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .second-heading-2{
+        display: none;     
+    }
+    /* home section */
+    .right-img{
+        display: none;
+    }
+    .img-left{
+        width: 90%;
+    }
+    .img-box{
+        height: 400px;
+        width: 100%;
+        background-image: none;
+        background-color:blue; 
+    }
+    
+    .left-head{
+        margin-left: 10px;
+    }
+    .left-head-2{
+        
+        margin: auto;
+        
+    }
+    .left-para{
+       margin: auto;
+    }
+
+    
+    .button-1{
+        
+        li button{
+            left: 40%;
+        }
+    }
+    .home-section-box1 {
+        width: 47%;
+    }
+
+    .imgBox{
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    .img-left{
+        text-align: center;
+    }
+    .About-Section{
+        margin-top: 50px;
+        background-image: none
+    }
+    .About-Box{
+        width: 95%;
+        .About-first{
+            width: 100%;
+        }
+    }
+    .About-second{
+        width: 97%;
+    }
+    .About-Box-1{
+        width: 97%;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and ( max-width:670px){
+    .home-section-box1 {
+        width: 97%;
+    }
+}
+    

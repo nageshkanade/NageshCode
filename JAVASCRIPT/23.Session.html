@@ -1,0 +1,21 @@
+<script>
+     // Session Storage :- 
+        // A session storage is used to store the data for a session of period 
+        // A data is store in the browser 
+        // A session storage data is removed when the browser is closed or website is closed  
+
+
+        // Add the Data in Session Storage 
+        sessionStorage.setItem("name" ,"rajesh")
+
+        // Getting the data from the session Storage 
+        let name = sessionStorage.getItem("name")
+        document.write(name)
+
+        // removing the data from the session storage 
+        // i.e Explicitly 
+        // sessionStorage.removeItem("name")
+
+        // remove all the data from the session storage 
+        sessionStorage.clear();
+</script>

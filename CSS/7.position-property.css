@@ -1,0 +1,21 @@
+.A{
+    height: 300px;
+    width: 50%;
+    background-color: blueviolet;
+    float: left;
+    position: relative;
+}
+.A1{
+    height: 150px;
+    width: 50%;
+    background-color: yellow;
+    float: left;
+    position: absolute;
+    right: 0px;
+}
+.B{
+    height: 300px;
+    width: 50%;
+    background-color: brown;
+    float: left;
+}

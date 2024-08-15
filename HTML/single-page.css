@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+.navbarMain{
+background-color: purple;
+height: 100px;
+width: 100%;
+position: fixed;
+float: left;
+
+}
+/* ********************* logo ************* */
+.logoImge{
+    /* background-color: blue; */
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+.logo{
+    height: 105px;
+    width: 56%;
+    
+}
+/* ***************** Navbar ********** */
+.menuber{
+    /* background-color: orangered; */
+    height: 100px;
+    width: 80%;
+    float: left;
+}
+.menu{
+    list-style-type:none;
+    
+}
+.menu li a{
+    text-decoration: none;
+    float: left;
+    padding: 50px;
+    color: black;
+    font-size: 30px;
+    margin-top: -25px;
+}
+.menu li a:hover{
+    color: red;
+
+}
+
+/********************** home Secion ***************** */
+h1{
+   padding: 200px;
+    text-align: center;
+    height: 20px; 
+}
+.homeSection{
+    background-color: blueviolet;
+    height: 900px;
+    width: 100%; 
+    
+}
+.homeSection{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+/* *********************** About section *************** */
+.aboutSection{
+    background-color: blue;
+    height: 900px;
+    width: 100%; 
+    
+}
+.aboutSection{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+/* ********************* Serives secion ************** */
+.serivesSection{
+    background-color: red;
+    height: 900px;
+    width: 100%; 
+    
+}
+.serivesSection{
+    text-align: center;
+    color:black;
+
+}

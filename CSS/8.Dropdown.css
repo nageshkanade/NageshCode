@@ -1,0 +1,33 @@
+.btn{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+.dropDownmenu a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+.dropDownmenu a:hover{
+    background-color: red;
+}
+.dropDownmenu{
+    position: absolute;
+    display: none;
+    
+}
+.dropdown{
+    position: relative;
+    width: 10%;
+
+}
+.dropdown:hover .dropDownmenu{
+    display: block;
+}

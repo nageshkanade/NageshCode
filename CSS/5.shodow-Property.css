@@ -1,0 +1,22 @@
+.textShodow{
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 1px 4px 4px black;
+}
+/* ****************** Box Shodow **************** */
+.box-Shodow{
+    height: 300px;
+    width: 30%;
+    margin: auto;
+    display: block;
+    background-color: purple;
+    box-shadow:1px 1px 5px 5px rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+.box-Shodow:hover{
+    box-shadow:1px 1px 5px 5px rgba(0,0,0,0.7);
+    border-radius: 5px;
+    background-color: red;
+
+}

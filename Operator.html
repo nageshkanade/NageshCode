@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+
+        // Operator - are Symbol , used to perform operation on operands 
+
+        // var a = 10 , b = 10;
+
+        // console.log(a + b)    
+        // here, 
+        // a , b => operands 
+        // + => operator / used to perform operation (addition)
+
+        // ----------------------------------------------------------------------------------
+                                // Types of Operators 
+
+        // 1) Arithmetic operators => (+ , - , * , % , /)  
+        // var a = 10 , b = 10;
+            
+        // console.log( a + b) // 20 
+        // console.log( a - b) // 0 
+        // console.log(a * b ) // 100
+        // console.log(a % b) // 0 => remainder
+        // console.log( a / b) // 1 => quotient
+
+
+        // 2) Comparison Operator => (== , === , < , > , <= , >= , <== , >== , != , !== )
+
+        // = -> assignment operator - assign value to variable
+        // var a = 10 ;
+        // var nagesh = "nagesh kanade";
+// -----------------------
+        // == => check variable are equal or not
+        // var a = 1 , b = 2;
+        // console.log( a == b ) //  1 == 2 => false 
+        //   a = 1 , b = 1;
+        // console.log( a == b) // 1 == 1 => true
+        // var n  = "nagesh" , na = "nagesh"
+        // console.log( n == na)
+// -----------------------
+        // ===  => check variable are equal or not and also check datatype 
+
+        // var a = 10; => integer
+        // var n = "nagesh" => string 
+        // var c = 'c' => character 
+        // var f = 3.14 => float 
+        // var b = true => boolean ( true or false )
+
+        // var a = 10 ;
+        // var b = '10';
+
+        // console.log( a == b ) // true 
+        // console.log( a === b ) // false 
+    
+// -------------------------
+
+        // var a = 10 , b = 20;
+
+        // < ===> less than
+        // > ===> greater than 
+        
+        // console.log( a < b ) // a less than b --> true 
+        // console.log( a > b ) // a greater than b -->  false 
+        
+        // var a = 10 , b = 10 ; 
+        // console.log( a < b); // false 
+
+        // console.log( a <= b ) // a less than equal to b --> true 
+
+        // console.log( a > b ) // false 
+
+        // console.log( a >= b) //true 
+
+        // console.log( a != b) // a is not equal to b ---> ( ! ==> not)
+
+        // console.log( a !== b) // a is not equal to b and not equal datatype  --->
+
+
+
+        
+
+
+        // 3) Logical Operators => ( && , || , !)
+
+        // // && => checks the all the condition are true then only it runs 
+
+        // var a1 = 2 , a2 = 4 , a3 = 6 ;
+
+        // console.log((a1 < a2))
+
+        let a = 10 ;
+
+
+        if( a > 5 && a > 15){
+
+            // 10 > 5 && 10 < 15 
+            console.log("a satify the codition...");
+        }
+        else{
+            console.log("not satisfied...");
+        }
+
+
+        // or (||) => check if any one of the condition satifies then it runs 
+
+        if(a > 5 || a > 15){
+            // 10 > 5 || 10 > 15
+            console.log("a satify the condition...");
+        }else{
+            console.log("not satisfied...");
+        }
+
+        a = true
+        if(!a){
+            // !10 
+            console.log("a satify the conditionn..." + a);
+        }
+        else{
+            console.log("condition not satisfied...")
+        }
+
+
+        // 4) Increment & Decrement Operator 
+
+        // 2) increment => 
+        //     i) pre-increment -   (++i)  
+        //     ii) post-increment - (i++)
+
+
+        // 2) decrement => 
+        //     i) pre-decrement (--i)
+        //     ii) post-decrement (i--)
+        
+
+        let  b = 10;
+
+        console.log(b++)  // 10
+
+        console.log(b) // 11
+
+        console.log(++b) // 12
+
+        console.log(b--) // 12
+
+        console.log(b) // 11
+
+        console.log(--b) // 10
+
+        let c = b++ + ++b;  // 10 + 12
+        
+        console.log(c) // 22
+                
+
+    </script>
+</body>
+</html>

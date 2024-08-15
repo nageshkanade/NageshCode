@@ -1,0 +1,14 @@
+.textProperty{
+    text-align: center;
+    /*  center,left,right */
+    text-decoration: underline;
+    /* underline,overline,linethrough */
+    text-transform: none;
+    /* lowercase,uppercase,capitalize */
+    line-height: 25px;
+    /*   line heigth use to line space */
+    word-spacing: 10px;
+    /*  word spacing use to word space */
+    letter-spacing: 10px;
+    /* letter spacing use to letter space */
+}

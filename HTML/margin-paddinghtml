@@ -1,0 +1,31 @@
+<!doctype html>
+</html>
+<head>
+    <title> margin-padding </title>
+<style>
+    /* ------------------------------------ margin type= top,right,left,bottom ------------------------------------------ */
+    .margin{
+        background-color:red;
+        height:100px;
+        margin:100px;
+    }
+    /* ------------------------------------- padding type= top'right'left'bottom ------------------------------------------- */
+    .padding{
+        background-color:blue;
+        color:white;
+        width:253px;
+        padding:100px;
+    }
+</style>
+
+
+
+    </head>
+    <body>
+        <!----------------------------------- Margin padding ------------------------>
+
+<p Class="margin"></p>
+<p Class="padding">WELCOME TO NAGESH FAMILY</p>
+
+    </body>
+    </html>
