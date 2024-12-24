@@ -12,7 +12,7 @@
     // }
 
 
-    // for(var a = 500 ; a <= 1 ; a++){
+    // for(var a = 500 ; a <= 1 ; a--){
     //     console.log(a)
     // }
 
